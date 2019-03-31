@@ -12,7 +12,7 @@
   "scripts": {
     "serve": "gulp",
     "build": "gulp prod",
-    "start": "node index.html"
+    "start": "yarn serve"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
