@@ -9,11 +9,6 @@
     "type": "git",
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
-  "scripts": {
-    "serve": "gulp",
-    "build": "gulp prod",
-    "start": "node index.html"
-  },
   "devDependencies": {
     "browser-sync": "~2.1.1",
     "gulp": "^3.8.11",
