@@ -11,7 +11,8 @@
   },
   "scripts": {
     "serve": "gulp",
-    "build": "gulp prod"
+    "build": "gulp prod",
+    "start": "node app/index.html"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
