@@ -7,3 +7,4 @@ node_modules
 # Compiled Files
 dist/
 # Local
+.idea/

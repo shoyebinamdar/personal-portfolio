@@ -11,7 +11,9 @@
   },
   "scripts": {
     "serve": "gulp",
-    "build": "gulp prod"
+    "build": "gulp prod",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d app"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
@@ -24,14 +26,17 @@
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglifyjs": "~0.6.0",
     "jeet": "7.1.0",
+    "node": "6.14.4",
     "node-bourbon": "^4.2.8",
     "node-notifier": "^5.0.2",
     "node-sass": "^4.5.0",
-    "run-sequence": "~1.0.2",
-    "node": "6.14.4"
+    "run-sequence": "~1.0.2"
   },
   "engines": {
     "yarn": "1.13.0"
-  }
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+ "homepage": "https://shoyebinamdar.github.io/personal-portfolio"
 }
-
