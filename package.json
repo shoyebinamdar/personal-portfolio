@@ -13,7 +13,7 @@
     "serve": "gulp",
     "build": "gulp prod",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d app"
+    "deploy": "yarn run deploy"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
