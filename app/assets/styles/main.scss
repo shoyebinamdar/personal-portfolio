@@ -1,40 +1,23 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
-/* Third-party
-   ========================================================================== */
-
-/**
- * Using Bourbon for extended SASS functionality:
- * http://bourbon.io/
- */
-
-@import "bourbon";
-
-/**
- * Using Jeet, a grid system designed for humans:
- * http://jeet.gs/
- */
-
-@import "jeet";
-
 // Normalize and reset default browser styles
-@import "_normalize.scss";
-@import "_normalize-opentype.scss";
-@import "_reset.scss";
+@import "normalize";
+@import "normalize-opentype";
+@import "reset";
 
 // Functions and mixins
-@import "_functions.scss";
-@import "_mixins.scss";
+@import "functions";
+@import "mixins";
 
 // Settings
-@import "_settings.scss";
+@import "_settings";
 
 // Custom styles
-@import "_icons.scss";
-@import "_buttons.scss";
-@import "_type.scss";
-@import "_modals.scss";
-@import "_base.scss";
-@import "_helpers.scss";
+@import "icons";
+@import "buttons";
+@import "type";
+@import "modals";
+@import "base";
+@import "helpers";
 
