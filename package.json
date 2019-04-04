@@ -13,7 +13,8 @@
     "serve": "gulp",
     "build": "gulp prod",
     "predeploy": "yarn run build",
-    "deploy": "yarn run deploy"
+    "deploy": "yarn run deploy",
+    "start": "yarn serve"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
