@@ -29,3 +29,27 @@
     background-color: shade($color, 8%);
   }
 }
+
+@mixin clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin center($max-width: map-get($jeet, 'max-width'), $pad: 0) {
+  @include clearfix;
+  width: auto;
+  max-width: $max-width;
+  float: none;
+  display: block;
+  margin: {
+    right: auto;
+    left:  auto;
+  };
+  padding: {
+    left:  $pad;
+    right: $pad;
+  };
+}
