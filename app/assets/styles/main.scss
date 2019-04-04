@@ -19,22 +19,22 @@
 @import "jeet";
 
 // Normalize and reset default browser styles
-@import "normalize.scss";
-@import "normalize-opentype.scss";
-@import "reset.scss";
+@import "_normalize.scss";
+@import "_normalize-opentype.scss";
+@import "_reset.scss";
 
 // Functions and mixins
-@import "functions.scss";
-@import "mixins.scss";
+@import "_functions.scss";
+@import "_mixins.scss";
 
 // Settings
-@import "settings.scss";
+@import "_settings.scss";
 
 // Custom styles
-@import "icons.scss";
-@import "buttons.scss";
-@import "type.scss";
-@import "modals.scss";
-@import "base.scss";
-@import "helpers.scss";
+@import "_icons.scss";
+@import "_buttons.scss";
+@import "_type.scss";
+@import "_modals.scss";
+@import "_base.scss";
+@import "_helpers.scss";
 
