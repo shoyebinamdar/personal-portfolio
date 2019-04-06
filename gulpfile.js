@@ -9,6 +9,7 @@ var sass = require('gulp-sass');
 var SassString = require('node-sass').types.String;
 var notifier = require('node-notifier');
 var sourcemaps = require('gulp-sourcemaps');
+var connect = require('gulp-connect');
 
 // Script handling.
 gulp.task('scripts:build', function(done) {
@@ -115,6 +116,14 @@ gulp.task('watch', function() {
   });
 });
 
+gulp.task('serveprod', function() {
+    connect.server({
+        root: './dist',
+        port: process.env.PORT || 5000, // localhost:5000
+        livereload: false
+    });
+});
+
 gulp.task('clean', function () {
   return gulp.src('dist', {read: false})
     .pipe(clean());
@@ -123,7 +132,7 @@ gulp.task('clean', function () {
 // Default task.
 // Builds the website, watches for changes and starts browserSync.
 gulp.task('default', function(done) {
-  runSequence('build', 'watch', 'browser-sync', done);
+  runSequence('build', 'watch', 'serveprod', done);
 });
 
 var shouldReload = true;

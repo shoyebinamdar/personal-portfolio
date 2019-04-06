@@ -41,6 +41,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglifyjs": "~0.6.0",
+    "gulp-connect": "^2.0.6",
     "http": "0.0.0",
     "jeet": "7.1.0",
     "node-bourbon": "^4.2.8",
