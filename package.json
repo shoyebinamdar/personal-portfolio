@@ -16,7 +16,7 @@
 },
   "scripts": {
     "deploy": "yarn run deploy",
-    "start": "yarn run build"
+    "start": "yarn serve"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
