@@ -2094,10 +2094,10 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-jeet@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/jeet/-/jeet-7.1.0.tgz#4aeaa0a939306b29607de8fcfa96967d9305a752"
-  integrity sha1-SuqgqTkwaylgfej8+paWfZMFp1I=
+jeet@^7.1.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/jeet/-/jeet-7.2.0.tgz#2aa562a2dc1d74cc99527113f16a821e974e30ee"
+  integrity sha512-TcUBVeb/PlBmiZRgqx/rHewXkyhnBzRANjPi99frE7FQcbXvnzH74IelKhdPlP94eBh/rI0T67B04yGaldWzTw==
 
 js-base64@^2.1.8:
   version "2.5.1"

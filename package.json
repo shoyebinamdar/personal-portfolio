@@ -10,7 +10,7 @@
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
   "engines": {
-        "node": "v10.13.0",
+        "node": "6.14.4",
         "npm": "6.4.1",
 	"yarn": "1.13.0"  
 },
