@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
+  "engines": {
+    "yarn": "1.13.0"
+  },
   "scripts": {
     "serve": "gulp",
     "build": "gulp prod",
@@ -33,9 +36,6 @@
     "node-notifier": "^5.0.2",
     "node-sass": "^4.5.0",
     "run-sequence": "~1.0.2"
-  },
-  "engines": {
-    "yarn": "1.13.0"
   },
   "dependencies": {
     "gh-pages": "^2.0.1"
