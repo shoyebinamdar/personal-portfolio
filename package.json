@@ -14,8 +14,7 @@
     "build": "gulp prod",
     "predeploy": "yarn run build",
     "deploy": "yarn run deploy",
-    "start": "yarn run clean && yarn run build && NODE_ENV=production yarn run go",
-    "heroku-prebuild": "yarn install --production=false"
+    "start": "yarn run clean && yarn run build && NODE_ENV=production yarn run go"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
