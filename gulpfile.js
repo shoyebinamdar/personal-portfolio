@@ -87,16 +87,24 @@ gulp.task('copy:app', function(done) {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('yarn', function() {
+    return gulp.src(['./package.json', './yarn.lock'])
+        .pipe(gulp.dest('./dist'))
+        .pipe(yarn({
+            production: true
+        }));
+});
+
 // Main build task
 gulp.task('build', function(done) {
-  runSequence(['copy:app', 'scripts', 'compass'], done);
+  runSequence(['copy:app', 'yarn', 'scripts', 'compass'], done);
 });
 
 // Build task prod version.
 var production = false;
 gulp.task('prod', function(done) {
   production = true;
-  runSequence('clean', ['copy:app', 'scripts', 'compass'], done);
+  runSequence('clean', ['copy:app', 'yarn', 'scripts', 'compass'], done);
 });
 
 gulp.task('watch', function() {
