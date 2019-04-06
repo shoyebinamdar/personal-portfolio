@@ -15,7 +15,7 @@
 	"yarn": "1.13.0"  
 },
   "scripts": {
-    "predeploy": "yarn run build",
+    "build": "yarn run build",
     "deploy": "yarn run deploy",
     "start": "yarn run build",
     "postinstall": "cd app && yarn run build"
