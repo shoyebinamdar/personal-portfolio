@@ -10,13 +10,12 @@
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
   "engines": {
-        "node": "6.14.4",
-        "npm": "6.4.1",
-	"yarn": "1.13.0"  
-},
+    "node": "6.14.4",
+    "npm": "6.4.1",
+    "yarn": "1.13.0"
+  },
   "scripts": {
-    "deploy": "yarn run deploy",
-    "start": "yarn serve"
+    "start": "yarn add serve && yarn serve"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
@@ -36,6 +35,7 @@
     "run-sequence": "~1.0.2"
   },
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "serve": "^11.0.0"
   }
 }
