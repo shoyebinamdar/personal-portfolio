@@ -1,6 +1,8 @@
 // BASE STYLES
 
 // GLOBAL
+$heading: #374054;
+$background-alt: #f2f2f5;
 
 html, body {
   height: 100%;
@@ -373,5 +375,38 @@ a:active{
       line-height: 1.1;
       margin-bottom: 32px;
     }
+  }
+}
+
+#skills {
+  position: relative;
+  top: 100%;
+  left: 0;
+  z-index: 15;
+  background: #FFFFFF;
+  padding: 5px 15px 50px 15px;
+  text-align: center;
+
+  h2 {
+    color: $heading;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: $heading;
+    background: darken($background-alt, 5%);
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
   }
 }
