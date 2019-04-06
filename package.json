@@ -15,7 +15,6 @@
 	"yarn": "1.13.0"  
 },
   "scripts": {
-    "build": "yarn run build",
     "deploy": "yarn run deploy",
     "start": "yarn run build"
   },
