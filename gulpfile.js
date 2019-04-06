@@ -137,6 +137,12 @@ gulp.task('no-reload', function(done) {
 
 function browserReload() {
   if (shouldReload) {
+    browserSync({
+        port: 9999,
+        server: {
+            baseDir: 'app',
+        }
+    });
     browserSync.reload();
   }
 }
