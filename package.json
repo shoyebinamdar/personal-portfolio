@@ -17,7 +17,7 @@
     "build": "gulp prod",
     "predeploy": "yarn run build",
     "deploy": "yarn run deploy",
-    "start": "yarn run clean && yarn run build && NODE_ENV=production yarn run go",
+    "start": "yarn run build",
     "postinstall": "cd app && yarn run build"
   },
   "devDependencies": {
