@@ -1,22 +1,17 @@
 {
-  "name": "shoyebinamdar.com",
+  "name": "danieldfsilva.com",
   "version": "1.2.0",
   "description": "Personal website",
-  "author": "Shoyeb Inamdar",
+  "author": "Daniel da Silva",
   "license": "MIT",
-  "homepage": "https://shoyebinamdar.github.io/personal-portfolio",
+  "homepage": "http://danielfdsilva.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
-  },
-  "port": "3000",
-  "engines": {
-    "node": "6.14.4",
-    "npm": "6.4.1",
-    "yarn": "1.13.0"
+    "url": "git://github.com/danielfdsilva/personal-website.git"
   },
   "scripts": {
-    "start": "yarn add serve && yarn serve"
+    "serve": "gulp",
+    "build": "gulp prod"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
@@ -28,15 +23,11 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglifyjs": "~0.6.0",
-    "jeet": "^7.1.0",
-    "node": "6.14.4",
+    "jeet": "7.1.0",
     "node-bourbon": "^4.2.8",
     "node-notifier": "^5.0.2",
     "node-sass": "^4.5.0",
     "run-sequence": "~1.0.2"
-  },
-  "dependencies": {
-    "gh-pages": "^2.0.1",
-    "serve": "^11.0.0"
   }
 }
+
