@@ -10,8 +10,9 @@
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
   "engines": {
-    "yarn": "1.13.0"
-  },
+        "node": "v10.13.0",
+        "npm": "6.4.1"  
+},
   "scripts": {
     "serve": "gulp",
     "build": "gulp prod",
