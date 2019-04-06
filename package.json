@@ -10,9 +10,8 @@
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
   "scripts": {
-    "serve": "gulp",
-    "build": "gulp prod",
-    "postinstall": "gulp default"
+    "serve": "gulp prod",
+    "build": "gulp prod"
   },
   "devDependencies": {
     "browser-sync": "~2.1.1",
