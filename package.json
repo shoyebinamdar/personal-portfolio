@@ -1,13 +1,12 @@
-{
-  "name": "danieldfsilva.com",
+  "name": "shoyebinamdar.com",
   "version": "1.2.0",
   "description": "Personal website",
-  "author": "Daniel da Silva",
+  "author": "Shoyeb Inamdar",
   "license": "MIT",
-  "homepage": "http://danielfdsilva.com",
+  "homepage": "https://shoyebinamdar.github.io/personal-portfolio",
   "repository": {
     "type": "git",
-    "url": "git://github.com/danielfdsilva/personal-website.git"
+    "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
   "scripts": {
     "serve": "gulp",
