@@ -10,7 +10,7 @@
     "url": "git://github.com/shoyebinamdar/personal-portfolio.git"
   },
   "scripts": {
-    "serve": "gulp prod",
+    "serve": "gulp",
     "build": "gulp prod"
   },
   "devDependencies": {
